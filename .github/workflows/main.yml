@@ -26,3 +26,4 @@ jobs:
             --scan-types sast
             --report-format json
             --output-path ./cx-results
+            --threshold "sast-critical=1;sast-high=1;sast-medium=1"
